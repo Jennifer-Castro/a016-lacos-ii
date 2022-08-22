@@ -19,7 +19,7 @@ Exemplo com entrada **`7`**:
 70
 */
 let num = prompt('Informe um número, por favor. Vamos criar uma tabuada')
-let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 for (a in array){
     let tabuada = num * a
     console.log(`${num}x${a} = ${tabuada}`)

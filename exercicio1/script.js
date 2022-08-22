@@ -18,26 +18,7 @@ Jogador 1: 13, 15, 25, 34, 35
 Jogador 2: 30, 48, 30, 12, 47
 */
 
-for(let a = 0; a < array.length; a++){
-        for (let b = 0; b < array[a].length; b++)
-        console.log(`Jogador ${a+1}\nGols de cada temporada:${array[b]}`)
+for(let a = 0; a <= 4; a++){
+    console.log(`Jogador:${a+1}\nGols de cada temporada:${array[a]}`)
    }
 
-
-// if(array === 4){
-//     for(let a in array) {
-//         for(let b of array[a])
-//         console.log(`Jogador ${a+1}\ngols:${array[b]}`)
-//     }
-
-
-// if (megaSena.length === 4) {
-//     for (let i = 0; i < megaSena.length; i++) {
-//       let sorteio = `Sorteio ${i + 1}: `
-//       for (let j = 0; j < megaSena[i].length; j++) {
-//               sorteio += `${megaSena[i][j]} `
-//       }
-//       console.log(sorteio)
-//     }
-//   } else {
-//     console.log('É necessário alterar o número de itens do array')
